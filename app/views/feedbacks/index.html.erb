@@ -1,0 +1,17 @@
+  
+<h1>About OneStop Learning</h1>
+<p>OneStop Learning is an educational portal built as a part of a project at University of Pennsylvania. Come quench your thirst for programming languages as we offer Videos, Tutorials, Blogs, Quizzes etc on Python, Ruby and other languages. If you like what you have seen and experienced please do provide comments or feedback as we encourage it!!! We hope you have a g0od time. HAPPY LEARNING!!!! </p>
+
+
+<%= form_tag :controller => "feedbacks", :action => "create", :method => 'post' do %>
+  <div><h3>Feedback</h3></div>
+  <span>
+  <%= text_area_tag('comment',nil, placeholder: 'Please enter your feedback...', cols: 75, rows: 10 )%>
+  </span>
+  <br>
+  <div>
+  <%= submit_tag("Submit", :class => "btn btn-primary") %>
+  </div>
+<% end %>
+        
+	

@@ -1,0 +1,22 @@
+<h1 class='text-center'>Quiz on C++</h1>
+<% @quizz.each do |a|%>
+<b><%=h a.question%></b><br><br>
+<p>
+1.<%=h a.ans1%>
+</p>
+<p>
+2.<%=h a.ans2%>
+</p>
+3.<%=h a.ans3%>
+</p>
+<p>
+4.<%=h a.ans4%>
+</p>
+<%=form_tag(:action => "check", :id => a.id) do %>
+<p>
+The correct answer is number:
+<%=text_field :ans ,params[:ans]%>
+</p>
+<p><%=submit_tag("Check", :class => 'btn btn-primary')%></p><br><br>
+<%end%>
+<%end%>
