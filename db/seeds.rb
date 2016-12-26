@@ -132,9 +132,3 @@ Cppquiz.create(question: "2) Which of the following statements is correct?", ans
 Cppquiz.create(question: "3) Which of the following concepts means determining at runtime what method to invoke?", ans1:" Data hiding", ans2: " Dynamic Typing", ans3: " Dynamic binding", ans4: " Dynamic loading", correctAns: "3" )
 Cppquiz.create(question: "4) How does the strings are stored in the memory?", ans1:" Contiguous", ans2: " Non-contiguous", ans3: " Null", ans4: " All of the mentioned", correctAns: "1" )
 Cppquiz.create(question: "5) Which of the following concept of oops allows compiler to insert arguments in a function call if it is not specified?", ans1:" Call by value", ans2: " Call by reference", ans3: " Default arguments", ans4: " Call by pointer", correctAns: "3" )
-
-
-
-
-
-	

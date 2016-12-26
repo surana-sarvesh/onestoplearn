@@ -1,10 +1,8 @@
 class LanguagesController < ApplicationController
 	before_action :authenticate_user!
 
-	
 
 	def select
-		
 		@val = params[:language][:Langopt_id]
 				
 
